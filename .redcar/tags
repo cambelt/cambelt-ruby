@@ -1,0 +1,25 @@
+1326725439
+Cambelt	/home/john/gems/cambelt/lib/cambelt.rb	module Cambelt
+Cambelt	/home/john/gems/cambelt/lib/cambelt/configuration.rb	module Cambelt
+Cambelt	/home/john/gems/cambelt/lib/cambelt/helpers.rb	module Cambelt
+Cambelt	/home/john/gems/cambelt/lib/cambelt/helpers/placeholder.rb	module Cambelt
+Cambelt	/home/john/gems/cambelt/lib/cambelt/version.rb	module Cambelt
+Configuration	/home/john/gems/cambelt/lib/cambelt/configuration.rb	  class Configuration
+Helpers	/home/john/gems/cambelt/lib/cambelt/helpers.rb	  module Helpers
+Helpers	/home/john/gems/cambelt/lib/cambelt/helpers/placeholder.rb	  module Helpers
+Placeholder	/home/john/gems/cambelt/lib/cambelt/helpers/placeholder.rb	    module Placeholder
+VERSION	/home/john/gems/cambelt/lib/cambelt/version.rb	  VERSION =
+configuration	/home/john/gems/cambelt/lib/cambelt.rb	    attr_accessor :configuration
+configure	/home/john/gems/cambelt/lib/cambelt.rb	    def configure
+font	/home/john/gems/cambelt/lib/cambelt/configuration.rb	    attr_accessor :width, :height, :font, :font_size, :text
+font_size	/home/john/gems/cambelt/lib/cambelt/configuration.rb	    attr_accessor :width, :height, :font, :font_size, :text
+height	/home/john/gems/cambelt/lib/cambelt/configuration.rb	    attr_accessor :width, :height, :font, :font_size, :text
+image_tag	/home/john/gems/cambelt/lib/cambelt/helpers/placeholder.rb	        def image_tag(link, options)
+initialize	/home/john/gems/cambelt/lib/cambelt/configuration.rb	    def initialize
+opts_to_args	/home/john/gems/cambelt/lib/cambelt.rb	    def opts_to_args(opts)
+placeholder	/home/john/gems/cambelt/lib/cambelt.rb	    def placeholder(opts={})
+placeholder	/home/john/gems/cambelt/lib/cambelt/helpers/placeholder.rb	        alias_method :placeholder
+placeholder_image_tag	/home/john/gems/cambelt/lib/cambelt/helpers/placeholder.rb	        def placeholder_image_tag(cambelt_opts={}, image_opts={})
+text	/home/john/gems/cambelt/lib/cambelt/configuration.rb	    attr_accessor :width, :height, :font, :font_size, :text
+to_hash	/home/john/gems/cambelt/lib/cambelt/configuration.rb	    def to_hash
+width	/home/john/gems/cambelt/lib/cambelt/configuration.rb	    attr_accessor :width, :height, :font, :font_size, :text
