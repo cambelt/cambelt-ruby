@@ -1,4 +1,4 @@
-require 'action_view/helpers/asset_tag_helper'
+require 'action_view/helpers'
 ActionView::Helpers::AssetTagHelper.module_eval do
   include Cambelt::Helpers::Placeholder
   #def placeholder_image_tag(cambelt_opts={}, image_opts={})
