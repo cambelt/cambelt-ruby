@@ -5,7 +5,7 @@ Cambelt is a service that allows you to generate free image placeholders, simply
 
 ### Quickstart
 
-<img src="https://cambelt.herokuapp.com/852x160/Cambelt+Quickstart?color=234653,eeeeee&font=Haymaker" />
+<img src="https://cambelt.herokuapp.com/852x120/Cambelt+Quickstart?color=234653,eeeeee&font=Haymaker&font_size=48" />
 
 To install Cambelt on your machine you can type:
 
