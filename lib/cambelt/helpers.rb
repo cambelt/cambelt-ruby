@@ -1,4 +1,6 @@
 require 'cambelt/helpers/placeholder'
 
-module Cambelt::Helpers
+module Cambelt
+  module Helpers
+  end
 end
