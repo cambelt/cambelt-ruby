@@ -7,9 +7,9 @@ Gem::Specification.new do |s|
   s.version     = Cambelt::VERSION
   s.authors     = ["John Maxwell"]
   s.email       = ["jgwmaxwell@gmail.com"]
-  s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.homepage    = "http://cambelt.co"
+  s.summary     = %q{Cambelt is a simple yet beautiful image placeholder service.}
+  s.description = %q{This gem makes it simple to embed images within your code with a nice Ruby DSL.}
 
   s.rubyforge_project = "cambelt"
 
