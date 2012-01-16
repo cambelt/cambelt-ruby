@@ -5,7 +5,7 @@ Cambelt is a service that allows you to generate free image placeholders, simply
 
 ### Quickstart
 
-<img src="http://cambelt.co/640x180/Cambelt+Quickstart" width="100%" />
+<img src="http://cambelt.co/852x160/Cambelt+Quickstart" />
 
 To install Cambelt on your machine you can type:
 
