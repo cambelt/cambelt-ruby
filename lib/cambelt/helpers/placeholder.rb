@@ -5,7 +5,7 @@ module Cambelt
           string = Cambelt.placeholder(cambelt_opts)
           image_tag(string, image_opts)
         end
-        alias :placeholder, :placeholder_image_tag
+        alias_method :placeholder, :placeholder_image_tag
         
         private
         def image_tag(link, options)
