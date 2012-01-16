@@ -1,8 +1,8 @@
 # encoding: utf-8
 
-module Sugarcrm
+module Cambelt
   module Generators
-    class ConfigGenerator < Rails::Generators::Base
+    class InstallGenerator < Rails::Generators::Base
       
       desc 'Creates a Cambelt gem initializer at config/initializers/cambelt.rb'
 
