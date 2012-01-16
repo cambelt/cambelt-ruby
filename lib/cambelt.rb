@@ -25,3 +25,7 @@ module Cambelt
     
   end
 end
+
+if defined? Rails
+  require 'rails-helper'
+end
