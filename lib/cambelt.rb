@@ -1,5 +1,6 @@
 require "cambelt/version"
 require "cambelt/configuration"
+require "cambelt/helpers"
 
 module Cambelt
   class << self
