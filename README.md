@@ -1,11 +1,12 @@
 Cambelt - Image Placeholders
 ============================
 
+<img src="https://cambelt.herokuapp.com/852x120/Cambelt+Placeholders?color=234653,eeeeee&font=Questrial&font_size=30" />
+
 Cambelt is a service that allows you to generate free image placeholders, simply and easily. If you would like to learn more about the service itself, have a look at http://cambelt.co for more information.
 
-### Quickstart
 
-<img src="https://cambelt.herokuapp.com/852x120/Cambelt+Quickstart?color=234653,eeeeee&font=Questrial&font_size=30" />
+## Quickstart
 
 To install Cambelt on your machine you can type:
 
@@ -25,7 +26,7 @@ in your views and get a nice placeholder back! For your convenience this is also
 
     <%= placeholder %>
     
-### Configuring Cambelt
+## Configuring Cambelt
 
 This gem currently only interfaces with the basic free Cambelt service, which gives a limited number of configuration options that you can set as defaults. When you make a call to _placeholder_image_tag()_, Cambelt checks for these defaults to create the image, but allows you to pass in a hash of values to override any of them.
 
