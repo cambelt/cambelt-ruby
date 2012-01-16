@@ -5,6 +5,8 @@ Cambelt is a service that allows you to generate free image placeholders, simply
 
 ### Quickstart
 
+![Quickstart Image](http://cambelt.co/640x360/Cambelt+Quickstart)
+
 To install Cambelt on your machine you can type:
 
     gem install cambelt
