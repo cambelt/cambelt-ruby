@@ -5,7 +5,7 @@ Cambelt is a service that allows you to generate free image placeholders, simply
 
 ### Quickstart
 
-<img src="https://cambelt.herokuapp.com/852x120/Cambelt+Quickstart?color=234653,eeeeee&font=Haymaker&font_size=48" />
+<img src="https://cambelt.herokuapp.com/852x120/Cambelt+Quickstart?color=234653,eeeeee&font=Questrial&font_size=30" />
 
 To install Cambelt on your machine you can type:
 
@@ -35,4 +35,27 @@ To configure Cambelt in Rails, you can run the following generator to create a C
     
 Then you can edit this file to customise your default settings. If you are not using Rails, then the command to configure Cambelt is the same as in the initializer, and is presented below:
 
+    Cambelt.configure do |config|
+        width = 640
+        height = 360
+        font = "Questrial"
+        font_size = 48
+        text = "Sample Text"
+        bg_color = "#cccccc"
+        fg_color = "#333333"
+    end
     
+These are the default settings that are provided, so if you are happy with those you don't actually need to call _Cambelt.configure()_ at all. Each of these methods is overridable on any given call to _placeholder_image_tag()_, and to do this you supply a hash as the first parameter:
+
+    placeholder_image_tag(:text => "I love Cambelt!")
+    
+Finally, you can supply a second hash to the method which contains html attributes that your want your image tag to have, so:
+
+    placeholder_image_tag({:text => "I love Cambelt!"}, {:class => "cambelt_is_classy"})
+    
+will give you the following:
+
+    <img src="http://cambelt.co/640x360/I+love+Cambelt!?font=Questrial&font_size=48&color=cccccc,333333" class="cambelt_is_classy" />
+    
+Simple, isn't it?
+      

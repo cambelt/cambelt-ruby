@@ -5,9 +5,11 @@ module Cambelt
     def initialize
       @width = 640
       @height = 360
-      @font = "Swanky"
+      @font = "Questrial"
       @font_size = 48
       @text = "Sample Text"
+      @bg_color = "#cccccc"
+      @fg_color = "#333333"
     end
     
     def to_hash
