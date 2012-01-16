@@ -1,3 +1,4 @@
+require 'cambelt/helpers'
 module Cambelt::Helpers::Placeholder
   def placeholder_image_tag(cambelt_opts={}, image_opts={})
     string = Cambelt.placeholder(cambelt_opts)
